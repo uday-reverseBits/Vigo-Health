@@ -12,7 +12,46 @@
 
 /* Order-Button */
 .container-fluid button {
-    background: #ff9800;
+    /* background: #ff9800; */
     width: 7.2rem !important;
     height: 3.2rem !important;
+}
+
+.btn {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.btn.btn-background-animation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #fff;
+    border: 1px solid #ff9800;
+    border-radius: 0.5rem;
+
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+}
+
+.btn.btn-background-animation {
+    z-index: 1;
+    border: none;
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.btn.btn-background-animation:hover {
+    background-color: transparent;
+    color: #ff9800;
+}
+
+.btn.btn-background-animation:hover::before,
+.btn.btn-background-animation:focus::before {
+    transform: scaleX(1);
 }
