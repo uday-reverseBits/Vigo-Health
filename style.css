@@ -1,3 +1,15 @@
+.top-header {
+    background-color: #ff9800;
+}
+
+.main-header {
+    border: 1px solid gainsboro;
+}
+
+
+
+
+
 /* Order-Button */
 .container-fluid button {
     background: #ff9800;
