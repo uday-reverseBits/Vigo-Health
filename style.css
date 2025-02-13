@@ -1,17 +1,68 @@
+/* top-header */
 .top-header {
     background-color: #ff9800;
 }
 
+/* main-header */
 .main-header {
     border: 1px solid gainsboro;
 }
+
+@media(max-width:768px) {
+
+    /* ---------------------------------------------------------main-header------------------------------------------ */
+    /* hamburger-menu */
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        box-shadow: none !important;
+        display: contents;
+    }
+
+    .navbar-toggler-icon {
+        /* display: block !important; */
+    }
+
+    /* logo */
+    .navbar-brand {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* order-button */
+    .btn.btn-background-animation.btn-order {
+        width: 5.2rem !important;
+        height: 2.8rem !important;
+    }
+
+    .mobile-navigation {
+        width: 65%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    /* ---------------------------------------section1----------------------------------------- */
+    /* product-details-button */
+    .btn.btn-background-animation.btn-product-details {
+        width: 11.9rem !important;
+    }
+}
+
+
 
 
 
 
 
 /* Order-Button */
-.container-fluid button {
+.btn-order {
     /* background: #ff9800; */
     width: 7.2rem !important;
     height: 3.2rem !important;
@@ -54,4 +105,23 @@
 .btn.btn-background-animation:hover::before,
 .btn.btn-background-animation:focus::before {
     transform: scaleX(1);
+}
+
+
+
+
+/* Section-1 */
+.vigo {
+    color: #ff9800;
+}
+
+.vigo-info>.dealing,
+.with,
+.vigo {
+    font-size: 4rem;
+}
+
+.btn-product-details {
+    width: 11.9rem !important;
+    height: 3.2rem !important;
 }
