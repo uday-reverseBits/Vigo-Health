@@ -1,16 +1,6 @@
-/* top-header */
-.top-header {
-    background-color: #ff9800;
-}
-
-/* main-header */
-.main-header {
-    border: 1px solid gainsboro;
-}
-
 @media(max-width:768px) {
 
-    /* ---------------------------------------------------------main-header------------------------------------------ */
+    /* ----------------main-header------------- */
     /* hamburger-menu */
     .navbar-toggler:focus,
     .navbar-toggler:active {
@@ -48,10 +38,16 @@
 
 
 
-    /* ---------------------------------------section1----------------------------------------- */
+    /* -----------section1---------- */
     /* product-details-button */
     .btn.btn-background-animation.btn-product-details {
         width: 11.9rem !important;
+    }
+
+
+    /*------- section2------- */
+    .whey-protein-ad {
+        height: 11rem !important;
     }
 }
 
@@ -59,6 +55,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ---------------------top-header----------------------------------- */
+.top-header {
+    background-color: #ff9800;
+}
+
+/*------------------------- main-header------------------------------- */
+.main-header {
+    border: 1px solid gainsboro;
+}
 
 
 /* Order-Button */
@@ -110,7 +125,8 @@
 
 
 
-/* Section-1 */
+/* ---------------------------------------section1----------------------------------------- */
+
 .vigo {
     color: #ff9800;
 }
@@ -126,6 +142,65 @@
     height: 3.2rem !important;
 }
 
-.carousel-control-next-icon:hover {
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
     border: 1px solid #ff9800;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3rem !important;
+}
+
+.whey-protein-image>img {
+    height: 488.5px !important;
+}
+
+/* ---------------------------------------section2----------------------------------------- */
+.whey-protein-ad {
+    background: #ff9800;
+    height: 11rem;
+}
+
+.btn-view-product {
+    width: 11.9rem !important;
+    height: 3.2rem !important;
+}
+
+.btn.btn-background-animation-reverse::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #ff9800;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+}
+
+.btn.btn-background-animation-reverse {
+    z-index: 1;
+    border: none;
+    background-color: #fff;
+    color: #ff9800;
+}
+
+.btn.btn-background-animation-reverse:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn.btn-background-animation-reverse:hover::before,
+.btn.btn-background-animation-reverse:focus::before {
+    transform: scaleX(1);
+}
+
+
+.custom-font-size {
+    font-size: 18px !important;
 }
