@@ -125,3 +125,7 @@
     width: 11.9rem !important;
     height: 3.2rem !important;
 }
+
+.carousel-control-next-icon:hover {
+    border: 1px solid #ff9800;
+}
