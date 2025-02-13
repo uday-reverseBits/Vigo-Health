@@ -85,6 +85,7 @@
     /* background: #ff9800; */
     width: 7.2rem !important;
     height: 3.2rem !important;
+    font-family: "Raleway", serif !important;
 }
 
 .btn {
@@ -126,6 +127,10 @@
     transform: scaleX(1);
 }
 
+.nav-link {
+    font-family: "Lato", serif;
+}
+
 
 
 
@@ -139,11 +144,17 @@
 .with,
 .vigo {
     font-size: 4rem;
+    font-family: "Raleway", serif !important;
+}
+
+.vigo-info>p {
+    font-family: "Lato", serif;
 }
 
 .btn-product-details {
-    width: 11.9rem !important;
+    width: 12.8rem !important;
     height: 3.2rem !important;
+    font-family: "Raleway", serif !important;
 }
 
 .carousel-control-next-icon:hover,
@@ -167,8 +178,8 @@
 }
 
 .btn-view-product {
-    /* width: 11.9rem !important;
-    height: 3.2rem !important; */
+    width: 11.9rem !important;
+    height: 3.2rem !important;
 }
 
 .btn.btn-background-animation-reverse::before {
@@ -202,4 +213,17 @@
 .btn.btn-background-animation-reverse:hover::before,
 .btn.btn-background-animation-reverse:focus::before {
     transform: scaleX(1);
+}
+
+.ad-wrapper {
+    margin-left: 16rem;
+}
+
+.ad-text>h3 {
+    font-family: "Courgette", serif;
+}
+
+.ad-text>span,
+.btn-view-product {
+    font-family: "Raleway", serif !important;
 }
