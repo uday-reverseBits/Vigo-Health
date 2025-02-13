@@ -49,6 +49,10 @@
     .whey-protein-ad {
         height: 11rem !important;
     }
+
+    .ad-text>span {
+        font-size: 18px !important;
+    }
 }
 
 
@@ -163,8 +167,8 @@
 }
 
 .btn-view-product {
-    width: 11.9rem !important;
-    height: 3.2rem !important;
+    /* width: 11.9rem !important;
+    height: 3.2rem !important; */
 }
 
 .btn.btn-background-animation-reverse::before {
@@ -198,9 +202,4 @@
 .btn.btn-background-animation-reverse:hover::before,
 .btn.btn-background-animation-reverse:focus::before {
     transform: scaleX(1);
-}
-
-
-.custom-font-size {
-    font-size: 18px !important;
 }
