@@ -53,6 +53,10 @@
     .ad-text>span {
         font-size: 18px !important;
     }
+
+    .ad-wrapper {
+        margin-left: 0 !important;
+    }
 }
 
 
@@ -226,4 +230,96 @@
 .ad-text>span,
 .btn-view-product {
     font-family: "Raleway", serif !important;
+}
+
+
+
+/* ---------------------------------------section3----------------------------------------- */
+.card {
+    border: none !important;
+    text-align: center;
+}
+
+.card>img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-inline: auto;
+}
+
+.small-line {
+    width: 80px;
+    height: 4px;
+    background: #ff9800;
+    display: block;
+    margin-inline: auto;
+}
+
+.supplements-benefits>h3 {
+    font-family: "Courgette", serif;
+    color: #ff9800;
+}
+
+.supplements-benefits>h2 {
+    font-family: "Raleway", serif !important;
+}
+
+.card-title {
+    font-family: "Raleway", serif !important;
+}
+
+.card-text {
+    font-family: "Lato", serif;
+}
+
+
+/* ---------------------------------------section4----------------------------------------- */
+.small-line-vertical {
+    height: 120px;
+    width: 7px;
+    display: block;
+    border-radius: 15px;
+    background-color: #ff9800;
+}
+
+.vertical-line {
+    margin-block: auto !important;
+}
+
+.sec-4-main-h3 {
+    font-family: "Courgette", serif;
+    color: #ff9800;
+}
+
+.sec-4-main-h2 {
+    font-family: "Raleway", serif !important;
+}
+
+.your-dream {
+    font-family: "Courgette", serif !important;
+    color: #ff9800;
+}
+
+.body-away {
+    font-family: "Raleway", serif !important;
+}
+
+.horizontal-line {
+    /* width: 46vw !important; */
+    width: 100% !important;
+    height: 1px !important;
+    background-color: grey;
+    border-radius: 15px;
+    display: block !important;
+    margin-left: auto;
+}
+
+.hl-bottom-text>h3 {
+    font-family: "Raleway", serif !important;
+}
+
+.ten-percent,
+.off,
+.whey-p {
+    color: #ff9800;
 }
