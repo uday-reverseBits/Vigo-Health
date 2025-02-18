@@ -61,12 +61,49 @@
 
     /*------- section5------- */
     .how-our-supplement-works {
-        width: 100% !important;
+        padding: 40px 0 !important;
     }
 
-    .embed-responsive {
-        /* width: 10px !important; */
-        display: none;
+    .how-our-supplement-works iframe {
+        width: 100% !important;
+        height: 300px !important;
+        margin-bottom: 2rem;
+        padding: 0 15px;
+    }
+
+    .sec-5-text {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .sec-5-text h2 {
+        font-size: 1.8rem !important;
+    }
+
+    .small-line-white {
+        margin: 1rem auto;
+    }
+
+    .btn-discover-more {
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+
+    /* Fix section width issues */
+    section {
+        padding: 40px 0;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .container-fluid {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -347,6 +384,8 @@
     background-position: center center;
     background-size: cover;
     padding-block: 6rem !important;
+    width: 100%;
+    margin: 0;
 }
 
 .small-line-white {
@@ -517,4 +556,28 @@ footer p {
 .footer-logo {
     height: 45px;
     width: auto;
+}
+
+/* Global section styles */
+section {
+    width: 100%;
+    padding: 60px 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
