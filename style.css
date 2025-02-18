@@ -323,3 +323,41 @@
 .whey-p {
     color: #ff9800;
 }
+
+
+
+
+
+/* ---------------------------------------section5----------------------------------------- */
+
+.how-our-supplement-works {
+    background-image: url(/Images/sec-5-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-block: 6rem !important;
+}
+
+.small-line-white {
+    width: 80px;
+    height: 4px;
+    background: #fff;
+    display: block;
+    /* margin-inline: auto; */
+}
+
+.btn-discover-more {
+    width: 15.9rem !important;
+    height: 3.2rem !important;
+    color: grey !important;
+    border: 1px solid grey !important;
+    font-family: "Raleway", serif !important;
+}
+
+.sec-5-text h2 {
+    font-family: "Raleway", serif !important;
+}
+
+.sec-5-text p {
+    font-family: "Lato", serif;
+}
