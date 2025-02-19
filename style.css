@@ -41,9 +41,19 @@
     /* -----------section1---------- */
     /* product-details-button */
     .btn.btn-background-animation.btn-product-details {
-        width: 11.9rem !important;
+        /* width: 11.9rem !important; */
     }
 
+    .btn-product-details {
+        width: 19.8rem !important;
+        height: 3.2rem !important;
+        margin-top: 0.5rem !important;
+    }
+
+    .vigo-introduction {
+        margin-top: 1rem !important;
+        padding: 0;
+    }
 
     /*------- section2------- */
     .whey-protein-ad {
@@ -56,6 +66,29 @@
 
     .ad-wrapper {
         margin-left: 0 !important;
+    }
+
+    .whey-protein-product-info {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /*------- section3------- */
+    .supplements-benefits {
+        margin-top: 2rem !important;
+        padding: 0;
+    }
+
+
+    /*------- section4------- */
+    .whey-protein-benefits-and-discount {
+        margin-top: 1rem !important;
+        padding: 0;
+    }
+
+    .btn-product-details {
+        margin: auto !important;
     }
 
 
@@ -104,6 +137,18 @@
         padding-left: 0;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    /*------- section6------- */
+    .product-gallery {
+        padding: 0 !important;
+    }
+
+
+    /*------- section8------- */
+
+    .burn-fat-with-vigo {
+        padding: 0 !important;
     }
 }
 
