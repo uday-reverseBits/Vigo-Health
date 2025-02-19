@@ -489,6 +489,39 @@
     border: none;
 }
 
+.card.card-animation::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 93px;
+    left: 0;
+    z-index: -1;
+    background-image: url(/Images/search-img.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9800;
+    border-radius: .5rem;
+}
+
+.card {
+    transform: translateY(5px);
+    transform-origin: bottom;
+    transition: transform 600ms ease-in-out;
+    /* z-index: 0; */
+}
+
+.card:hover {
+    transform: translateY(-5px)
+}
+
+
+.card.card-animation:hover::after {
+    z-index: 1;
+    opacity: .7;
+}
+
+
 
 
 /* ---------------------------------------section7----------------------------------------- */
