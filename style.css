@@ -1,5 +1,6 @@
 @media(max-width:768px) {
 
+
     /* ----------------main-header------------- */
     /* hamburger-menu */
     .navbar-toggler:focus,
@@ -70,7 +71,7 @@
 
     .whey-protein-product-info {
         padding: 0;
-        margin: 0;
+        margin: 0 !important;
     }
 
 
@@ -149,6 +150,11 @@
 
     .burn-fat-with-vigo {
         padding: 0 !important;
+    }
+
+    .section {
+        overflow: hidden !important;
+        width: 100% !important;
     }
 }
 
